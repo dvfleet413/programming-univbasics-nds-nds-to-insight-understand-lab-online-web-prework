@@ -17,7 +17,7 @@ def print_first_directors_movie_titles
   
   element_index = 0
   while element_index < directors_database[0].length do
-    puts "Title #{element_index} is #{directors_database[0][:title]}"
+    puts "Title #{element_index} is #{directors_database[0][:movies}[:title]}"
     element_index += 1
   end
 end
