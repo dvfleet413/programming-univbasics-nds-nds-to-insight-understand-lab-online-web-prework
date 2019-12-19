@@ -10,10 +10,12 @@ end
 
 def print_first_directors_movie_titles
   row_index = 0
-  element_index = 0
   while row_index < directors_database.length do
     puts "Row #{row_index} has #{directors_database[row_index]} columns"
     row_index += 1
   end
-  #puts directors_database[0][:movies]
+  
+  element_index = 0
+  while element_index < directors_database[0].length do
+    puts "Title #{element_index} is #{directors_database[0][:title]}"
 end
