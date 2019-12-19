@@ -14,5 +14,5 @@ def print_first_directors_movie_titles
     #puts "Row #{row_index} has #{directors_database[row_index]} columns"
     row_index += 1
   end
-  directors_database[0][:movies]
+  puts directors_database[0][:movies]
 end
